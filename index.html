@@ -9,21 +9,21 @@
                 <h3 class="title">HOME</h3>
                 <h2 class="scoreboard" id="home-score">0</h2>
                 <div class="scoreboard-btns">
-                    <button id="+1-btn-home" onclick="add_one_home()">+ 1</button>
-                    <button id="+2-btn-home" onclick="add_two_home()">+ 2</button>
-                    <button id="+3-btn-home" onclick="add_three_home()">+ 3</button>
+                    <button id="+1-btn-home" onclick="addPoints('home', 1)">+ 1</button>
+                    <button id="+2-btn-home" onclick="addPoints('home', 2)">+ 2</button>
+                    <button id="+3-btn-home" onclick="addPoints('home', 3)">+ 3</button>
                 </div>
             </div>
             <div class="reset-wrapper">
                 <button id="reset-btn" onclick="reset()">Reset</button>
             </div>
             <div>
-                <h3 class="title">GUEST</h3>
+                <h3 class="title">AWAY</h3>
                 <h2 class="scoreboard" id="guest-score">0</h2>
                 <div class="scoreboard-btns-wrapper">
-                    <button id="+1-btn-guest" onclick="add_one_guest()">+ 1</button>
-                    <button id="+2-btn-guest" onclick="add_two_guest()" >+ 2</button>
-                    <button id="+3-btn-guest" onclick="add_three_guest()" >+ 3</button>
+                    <button id="+1-btn-guest" onclick="addPoints('away', 1)">+ 1</button>
+                    <button id="+2-btn-guest" onclick="addPoints('away', 2)" >+ 2</button>
+                    <button id="+3-btn-guest" onclick="addPoints('away', 3)" >+ 3</button>
                 </div>
             </div>
         </div>
